@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+.div1{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px auto;
+}
+h1{
+    text-align: center;
+}
+h1 span{
+    color: yellow;
+
+}
+img{
+    width:400px ;
+    height: 150px;
+}
+p{
+    background-color: black;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+
+}
+.div2{
+    background-color: black;
+    width: 400px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+}
